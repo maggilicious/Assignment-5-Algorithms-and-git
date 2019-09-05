@@ -9,4 +9,13 @@ num1 = 1
 num2 = 2
 num3 = 3
 for i in range(1,n+1):
+    if 1 <= i <= 3:                         #to print the first 3 numbers
+        print(i)
+    else:
+        sequence_num = num1 + num2 +num3    # the sequence number is the last three numbers addeed together
+        num1 = num2                         # then we update all the numbers by moving them up to their next place in line
+        num2 = num3
+        num3 = sequence_num                 # such that the last number becomes the last sum of the numbers (sequence_num)
+        print(sequence_num)
+
 
