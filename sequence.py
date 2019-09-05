@@ -1,3 +1,4 @@
+# https://github.com/maggilicious/Assignment-5-Algorithms-and-git.git
 n = int(input("Enter the length of the sequence: ")) # Do not change this line
 # problem description
 # generate the first n numbers in the following sequence 1,2,3,6,11,20,37,....
@@ -5,9 +6,9 @@ n = int(input("Enter the length of the sequence: ")) # Do not change this line
 # the pattern is adding the last three numbers to the current number in the sequence
 # we establish the first three numbers 1, 2 and 3 which will also work as our last three numbers
 
-num1 = 1
-num2 = 2
-num3 = 3
+num1 = 1  # a(n-3)
+num2 = 2  # a(n-2)
+num3 = 3  # a(n-1)
 for i in range(1,n+1):
     if 1 <= i <= 3:                         #to print the first 3 numbers
         print(i)
