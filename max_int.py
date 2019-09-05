@@ -10,3 +10,4 @@ while num_int > 0:                          # run while the input is not negativ
     num_int = int(input("Input a number: "))# prompt for new input
                                             
 print("The maximum is", max_int)    # Do not change this line
+
